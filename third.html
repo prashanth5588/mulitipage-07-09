@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>third page</title>
+
+        <link rel="stylesheet" type="text/css" href="third.css">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
+
+    </head>
+    <body class="bg-container">
+        <div>
+            <button onclick="logout()" class="glyphicon glyphicon-log-out btn btn-secondary button1">Logout</button>
+            <center>
+                <h1>Third stage<sup><img src="2.image.jpg" height="100" width="100"/></sup></h1>
+                <div id="output" style="text-align: left;margin-bottom: 50px;"></div>
+                
+            </center>
+        </div>
+        <center>
+            <div>
+                <label>Send: </label>
+                <input type="text" id="msg" class="form-control">
+                <button onclick="send()" class="btn btn-success">send: </button>
+            </div>
+        </center>
+
+        <script src="third.js"></script>
+    </body>
+</html>
